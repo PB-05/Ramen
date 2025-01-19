@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Joyal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        .content {
+            padding: 20px;
+        }
+        .emoji {
+            font-size: 3em;
+            animation: wave 1s infinite alternate; /* Animation for waving hand */
+        }
+        /* Keyframes for waving hand emoji */
+        @keyframes wave {
+            0% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(20deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+        .poem {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Hello Joyal <span class="emoji">👋</span></h1>
+        
+        <div class="poem">
+            <p>I want Ramen</p>
+            <p>Ramen without eggs</p>
+            <p>Eggs without Ramen</p>
+            <p>It’s like a dick wit no balls</p>
+img src="" alt="Ramen"
+        </div>
+    </div>
+</body>
+</html>
