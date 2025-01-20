@@ -35,7 +35,7 @@
             }
         }
         .spacer {
-            height: 400px; /* Increased space for scrolling */
+            height: 400px; /* Space for scrolling */
         }
         .poem-title {
             font-size: 1.5em;
@@ -51,6 +51,22 @@
             font-size: 3em;
             margin-top: 20px;
         }
+        .big-ramen {
+            font-size: 5em;
+            animation: pulse 1.5s infinite; /* Pulsating ramen bowl */
+        }
+        /* Keyframes for pulsating effect */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
     </style>
 </head>
 <body>
@@ -59,6 +75,9 @@
         
         <!-- Spacer to add scrolling -->
         <div class="spacer"></div>
+
+        <!-- Big Pulsating Ramen Emoji -->
+        <div class="big-ramen">🍜</div>
 
         <!-- Poem Title -->
         <div class="poem-title">Ramen, written by: Joyal Saji</div>
