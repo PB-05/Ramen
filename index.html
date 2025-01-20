@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Written By Joyal</title>
+    <title>Hello Joyal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,6 +12,8 @@
             padding: 0;
             background-color: black;
             color: white;
+            height: 100vh;
+            overflow-y: scroll;
         }
         .content {
             padding: 20px;
@@ -32,6 +34,9 @@
                 transform: rotate(0deg);
             }
         }
+        .spacer {
+            height: 300px; /* Creates space for scrolling */
+        }
         .poem {
             font-size: 1.2em;
             font-style: italic;
@@ -45,8 +50,11 @@
 </head>
 <body>
     <div class="content">
-        <h1>Written By Joyal <span class="emoji">👏</span></h1>
+        <h1>Hello Joyal <span class="emoji">👋</span></h1>
         
+        <!-- Spacer to add scrolling -->
+        <div class="spacer"></div>
+
         <div class="poem">
             <p>I want Ramen</p>
             <p>Ramen without eggs</p>
